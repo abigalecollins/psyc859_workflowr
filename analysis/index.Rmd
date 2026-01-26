@@ -9,3 +9,5 @@ editor_options:
 ---
 
 Welcome to my research website.
+
+Link to assignment Rmd: [link](01-getting-started.html)
