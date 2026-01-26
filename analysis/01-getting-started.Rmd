@@ -14,7 +14,7 @@ The broad study aim is to investigate the impact of social influences on decisio
 # Read data and summarise
 ```{r}
 
-data <- read.csv("/Users/gracecollins/Desktop/psyc859_workflowr/data/psyc-859-assign2-data.csv")
+data <- read.csv("data/psyc-859-assign2-data.csv")
 summary(data)
 
 ```
