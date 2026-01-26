@@ -1,0 +1,21 @@
+---
+title: "01-getting-started"
+author: "Abigale (Grace) Collins"
+date: "2026-01-25"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Project Topic
+The data used in the PSYC 859 assignment will be taken from a larger study conducted by the Developmental Neuroscience and Personality Disorders (DEPENd) Lab at UNC-CH. PI: Dr. Michael Hallquist. 
+The broad study aim is to investigate the impact of social influences on decision-making in individuals with and without symptoms of borderline personality disorder (BPD). This course project will focus on behavioral task data collected during a study visit. The task goal (and the goal of this project) will be to understand how BPD symptomology may impact the effect of Pavlovian-to-instrumental transfer on responses to both social and nonsocial cues. 
+
+# Read data and summarise
+```{r}
+
+data <- read.csv("/Users/gracecollins/Desktop/psyc859_workflowr/data/psyc-859-assign2-data.csv")
+summary(data)
+
+```
+
